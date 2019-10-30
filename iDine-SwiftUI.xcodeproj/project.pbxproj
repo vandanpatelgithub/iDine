@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B5E64E7236936380074926C /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E64E6236936380074926C /* ItemDetail.swift */; };
 		2BDEBB82235D5F6E001505E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDEBB81235D5F6E001505E9 /* AppDelegate.swift */; };
 		2BDEBB84235D5F6E001505E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDEBB83235D5F6E001505E9 /* SceneDelegate.swift */; };
 		2BDEBB86235D5F6E001505E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDEBB85235D5F6E001505E9 /* ContentView.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B5E64E6236936380074926C /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		2BDEBB7E235D5F6E001505E9 /* iDine-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iDine-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDEBB81235D5F6E001505E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BDEBB83235D5F6E001505E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				2BDEBB8F235D5F6F001505E9 /* Info.plist */,
 				2BDEBB89235D5F6F001505E9 /* Preview Content */,
 				2BDEBB9D236007F6001505E9 /* ItemRow.swift */,
+				2B5E64E6236936380074926C /* ItemDetail.swift */,
 			);
 			path = "iDine-SwiftUI";
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 				2BDEBB84235D5F6E001505E9 /* SceneDelegate.swift in Sources */,
 				2BDEBB9E236007F6001505E9 /* ItemRow.swift in Sources */,
 				2BDEBB86235D5F6E001505E9 /* ContentView.swift in Sources */,
+				2B5E64E7236936380074926C /* ItemDetail.swift in Sources */,
 				2BDEBB96235D61A1001505E9 /* Helper.swift in Sources */,
 				2BDEBB98235D61CE001505E9 /* Menu.swift in Sources */,
 			);
