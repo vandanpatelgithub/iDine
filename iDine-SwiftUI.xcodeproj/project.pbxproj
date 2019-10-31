@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2B5E64E7236936380074926C /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E64E6236936380074926C /* ItemDetail.swift */; };
+		2B5E64E923694DDA0074926C /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E64E823694DDA0074926C /* OrderView.swift */; };
+		2B5E64EB236A905D0074926C /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E64EA236A905D0074926C /* AppView.swift */; };
+		2B5E64ED236A92170074926C /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E64EC236A92170074926C /* CheckoutView.swift */; };
 		2BDEBB82235D5F6E001505E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDEBB81235D5F6E001505E9 /* AppDelegate.swift */; };
 		2BDEBB84235D5F6E001505E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDEBB83235D5F6E001505E9 /* SceneDelegate.swift */; };
 		2BDEBB86235D5F6E001505E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDEBB85235D5F6E001505E9 /* ContentView.swift */; };
@@ -23,6 +26,9 @@
 
 /* Begin PBXFileReference section */
 		2B5E64E6236936380074926C /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		2B5E64E823694DDA0074926C /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		2B5E64EA236A905D0074926C /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		2B5E64EC236A92170074926C /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		2BDEBB7E235D5F6E001505E9 /* iDine-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iDine-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDEBB81235D5F6E001505E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BDEBB83235D5F6E001505E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +87,9 @@
 				2BDEBB89235D5F6F001505E9 /* Preview Content */,
 				2BDEBB9D236007F6001505E9 /* ItemRow.swift */,
 				2B5E64E6236936380074926C /* ItemDetail.swift */,
+				2B5E64E823694DDA0074926C /* OrderView.swift */,
+				2B5E64EC236A92170074926C /* CheckoutView.swift */,
+				2B5E64EA236A905D0074926C /* AppView.swift */,
 			);
 			path = "iDine-SwiftUI";
 			sourceTree = "<group>";
@@ -166,12 +175,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BDEBB9A235D61D8001505E9 /* Order.swift in Sources */,
+				2B5E64ED236A92170074926C /* CheckoutView.swift in Sources */,
 				2BDEBB82235D5F6E001505E9 /* AppDelegate.swift in Sources */,
 				2BDEBB84235D5F6E001505E9 /* SceneDelegate.swift in Sources */,
 				2BDEBB9E236007F6001505E9 /* ItemRow.swift in Sources */,
 				2BDEBB86235D5F6E001505E9 /* ContentView.swift in Sources */,
 				2B5E64E7236936380074926C /* ItemDetail.swift in Sources */,
+				2B5E64E923694DDA0074926C /* OrderView.swift in Sources */,
 				2BDEBB96235D61A1001505E9 /* Helper.swift in Sources */,
+				2B5E64EB236A905D0074926C /* AppView.swift in Sources */,
 				2BDEBB98235D61CE001505E9 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
